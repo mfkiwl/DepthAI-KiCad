@@ -1,0 +1,531 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 8
+Title "BW1098OBC_TopLevel-SchDoc"
+Date "12 12 2020"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 14060 10700 0    60   ~ 0
+2
+Text Notes 14750 10300 0    60   ~ 0
+Luxonis Holding
+Text Notes 14750 10400 0    60   ~ 0
+1925 Harmony Park Drive
+Text Notes 14750 10500 0    60   ~ 0
+Westminster, CO
+Text Notes 14750 10600 0    60   ~ 0
+80234
+Text Notes 14750 10700 0    60   ~ 0
+United States
+Text Notes 14320 10700 0    60   ~ 0
+8
+Text Notes 12480 10360 0    90   ~ 18
+=project_title
+Text Notes 13270 10560 0    72   ~ 0
+=document_number
+Text Notes 14190 10560 0    72   ~ 0
+=revision
+Text Notes 12500 10700 0    60   ~ 0
+*
+Text Notes 13350 10700 0    60   ~ 0
+*
+Text Notes 12700 10800 0    60   ~ 12
+=drawn_by
+Wire Notes Line
+	12200 10800 12200 10200
+Wire Notes Line
+	14700 10400 12200 10400
+Wire Notes Line
+	12900 10600 12900 10400
+Wire Notes Line
+	13800 10700 13800 10400
+Wire Notes Line
+	15800 10700 15800 10200
+Text Notes 12250 10350 0    60   ~ 0
+Title
+Text Notes 12250 10550 0    60   ~ 0
+Size:
+Text Notes 12950 10550 0    60   ~ 0
+Number:
+Text Notes 12250 10700 0    60   ~ 0
+Date:
+Text Notes 12250 10800 0    60   ~ 0
+Drawn by:
+Text Notes 13850 10550 0    60   ~ 0
+Revision:
+Text Notes 13850 10700 0    60   ~ 0
+Sheet
+Text Notes 14190 10700 0    60   ~ 0
+of
+Wire Notes Line
+	14700 10700 14700 10200
+Text Notes 13100 10700 0    60   ~ 0
+Time:
+Text Notes 12500 10560 0    72   ~ 0
+Tabloid
+Wire Notes Line
+	14700 10600 12200 10600
+NoConn ~ 12300 9900
+NoConn ~ 12800 9900
+NoConn ~ 13300 9900
+NoConn ~ 13800 9900
+NoConn ~ 14300 9900
+NoConn ~ 14800 9900
+Text HLabel 2000 1600 0    60   Output ~ 0
+1V2
+Text HLabel 2000 1400 0    60   Output ~ 0
+2V8
+Text HLabel 2000 1900 0    60   Output ~ 0
+GND
+Text HLabel 2000 1500 0    60   Output ~ 0
+1V8
+Text HLabel 2000 1100 0    60   Output ~ 0
+VDD_5V
+Text HLabel 2000 1200 0    60   Input ~ 0
+VBUS
+Text HLabel 2000 1300 0    60   Output ~ 0
+3V3
+Text HLabel 2000 1700 0    60   Output ~ 0
+1V05
+$Sheet
+S 500  1000 1500 1000
+U 5FD6AC3C
+F0 "U_BW1098OBC_Power_Supply" 60
+F1 "BW1098OBC_Power_Supply-SchDoc.sch" 60
+$EndSheet
+Text HLabel 13600 4700 2    60   BiDi ~ 0
+MIPI_CAM_B_HARN
+Text HLabel 13600 3200 2    60   BiDi ~ 0
+MIPI_CAM_A_HARN
+Text HLabel 13600 6500 2    60   BiDi ~ 0
+MIPI_CAM_C_HARN
+Text HLabel 13600 4900 2    60   BiDi ~ 0
+I2C2_HARN
+Text HLabel 13600 3400 2    60   BiDi ~ 0
+I2C1_HARN
+Text HLabel 13600 3300 2    60   BiDi ~ 0
+CTL_CAM_A_HARN
+Text HLabel 13600 4800 2    60   BiDi ~ 0
+CTL_CAM_B_HARN
+Text HLabel 13600 2900 2    60   Input ~ 0
+VDD_5V
+Text HLabel 15100 7500 0    60   Input ~ 0
+GND
+Text HLabel 13600 3000 2    60   Input ~ 0
+VBUS
+Text HLabel 13600 5600 2    60   BiDi ~ 0
+USB_HARN
+Text HLabel 13600 5100 2    60   Output ~ 0
+COM_AUX_IO2
+$Sheet
+S 13600 2800 1500 4800
+U 5FD6AC3E
+F0 "U_BW1098OBC_Connector" 60
+F1 "BW1098OBC_Connector-SchDoc.sch" 60
+$EndSheet
+Text HLabel 6800 3100 2    60   Input ~ 0
+2V8
+Text HLabel 6800 3300 2    60   Input ~ 0
+1V05
+Text HLabel 8300 3400 0    60   BiDi ~ 0
+I2C1_HARN
+Text HLabel 8300 3200 0    60   BiDi ~ 0
+MIPI_CAM_A_HARN
+Text HLabel 8300 3300 0    60   BiDi ~ 0
+CTL_CAM_A_HARN
+Text HLabel 8300 3700 0    60   Input ~ 0
+GND
+Text HLabel 6800 3200 2    60   Input ~ 0
+1V8
+$Sheet
+S 6800 3000 1500 800 
+U 5FD6AC40
+F0 "U_BW1098OBC_IMX378" 60
+F1 "BW1098OBC_IMX378-SchDoc.sch" 60
+$EndSheet
+Text HLabel 8300 6500 0    60   BiDi ~ 0
+MIPI_CAM_C_HARN
+Text HLabel 8300 6700 0    60   BiDi ~ 0
+I2C2_HARN
+Text HLabel 6800 6600 2    60   Input ~ 0
+1V2
+Text HLabel 6800 6400 2    60   Input ~ 0
+2V8
+Text HLabel 8300 7300 0    60   Input ~ 0
+GND
+Text HLabel 6800 6500 2    60   Input ~ 0
+1V8
+Text HLabel 8300 7000 0    60   Input ~ 0
+FSIN2
+Text HLabel 8300 6600 0    60   BiDi ~ 0
+CTL_CAM_B_HARN
+$Sheet
+S 6800 6300 1500 1100
+U 5FD6AC42
+F0 "U_BW1098OBC_RIGHT_OV9282" 60
+F1 "BW1098OBC_RIGHT_OV9282-SchDoc.sch" 60
+$EndSheet
+Text HLabel 8300 4900 0    60   BiDi ~ 0
+I2C2_HARN
+Text HLabel 8300 4800 0    60   BiDi ~ 0
+CTL_CAM_B_HARN
+Text HLabel 8300 4700 0    60   BiDi ~ 0
+MIPI_CAM_B_HARN
+Text HLabel 6800 4800 2    60   Input ~ 0
+1V2
+Text HLabel 6800 4600 2    60   Input ~ 0
+2V8
+Text HLabel 8300 5500 0    60   Input ~ 0
+GND
+Text HLabel 6800 4700 2    60   Input ~ 0
+1V8
+Text HLabel 8300 5200 0    60   Output ~ 0
+FSIN2
+Text HLabel 8300 5100 0    60   Input ~ 0
+COM_AUX_IO2
+$Sheet
+S 6800 4500 1500 1100
+U 5FD6AC44
+F0 "U_BW1098OBC_LEFT_OV9282" 60
+F1 "BW1098OBC_LEFT_OV9282-SchDoc.sch" 60
+$EndSheet
+$Comp
+L power:GND GND_64
+U 1 1 5FD52FBC
+P 15100 7500
+F 0 "GND_64" H 15100 7500 20  0000 C CNN
+F 1 "GND" H 15100 7430 30  0000 C CNN
+F 2 "" H 15100 7500 70  0000 C CNN
+F 3 "" H 15100 7500 70  0000 C CNN
+	1    15100 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_65
+U 1 1 5FD52FBB
+P 8300 7300
+F 0 "GND_65" H 8300 7300 20  0000 C CNN
+F 1 "GND" H 8300 7230 30  0000 C CNN
+F 2 "" H 8300 7300 70  0000 C CNN
+F 3 "" H 8300 7300 70  0000 C CNN
+	1    8300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_66
+U 1 1 5FD52FBA
+P 8300 3700
+F 0 "GND_66" H 8300 3700 20  0000 C CNN
+F 1 "GND" H 8300 3630 30  0000 C CNN
+F 2 "" H 8300 3700 70  0000 C CNN
+F 3 "" H 8300 3700 70  0000 C CNN
+	1    8300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_67
+U 1 1 5FD52FB9
+P 8300 5500
+F 0 "GND_67" H 8300 5500 20  0000 C CNN
+F 1 "GND" H 8300 5430 30  0000 C CNN
+F 2 "" H 8300 5500 70  0000 C CNN
+F 3 "" H 8300 5500 70  0000 C CNN
+	1    8300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_68
+U 1 1 5FD52FB8
+P 2000 1900
+F 0 "GND_68" H 2000 1900 20  0000 C CNN
+F 1 "GND" H 2000 1830 30  0000 C CNN
+F 2 "" H 2000 1900 70  0000 C CNN
+F 3 "" H 2000 1900 70  0000 C CNN
+	1    2000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_69
+U 1 1 5FD52FB7
+P 14000 8900
+F 0 "GND_69" H 14000 8900 20  0000 C CNN
+F 1 "GND" H 14000 8830 30  0000 C CNN
+F 2 "" H 14000 8900 70  0000 C CNN
+F 3 "" H 14000 8900 70  0000 C CNN
+	1    14000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_70
+U 1 1 5FD52FB6
+P 13000 8900
+F 0 "GND_70" H 13000 8900 20  0000 C CNN
+F 1 "GND" H 13000 8830 30  0000 C CNN
+F 2 "" H 13000 8900 70  0000 C CNN
+F 3 "" H 13000 8900 70  0000 C CNN
+	1    13000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_71
+U 1 1 5FD52FB5
+P 13000 9400
+F 0 "GND_71" H 13000 9400 20  0000 C CNN
+F 1 "GND" H 13000 9330 30  0000 C CNN
+F 2 "" H 13000 9400 70  0000 C CNN
+F 3 "" H 13000 9400 70  0000 C CNN
+	1    13000 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND GND_72
+U 1 1 5FD52FB4
+P 14000 9400
+F 0 "GND_72" H 14000 9400 20  0000 C CNN
+F 1 "GND" H 14000 9330 30  0000 C CNN
+F 2 "" H 14000 9400 70  0000 C CNN
+F 3 "" H 14000 9400 70  0000 C CNN
+	1    14000 9400
+	1    0    0    -1  
+$EndComp
+Text HLabel 11800 5600 0    60   BiDi ~ 0
+USB_HARN
+Text HLabel 10300 5700 2    60   Output ~ 0
+VBUS
+Text HLabel 11800 5800 0    60   Input ~ 0
+GND
+Text HLabel 10300 5800 2    60   Input ~ 0
+3V3
+Text HLabel 10300 5600 2    60   Input ~ 0
+VDD_5V
+$Sheet
+S 10300 5500 1500 400 
+U 5FD6AC85
+F0 "U_BW1098OBC_USB" 60
+F1 "BW1098OBC_USB-SchDoc.sch" 60
+$EndSheet
+$Comp
+L power:GND GND_73
+U 1 1 5FD52FB3
+P 11800 5800
+F 0 "GND_73" H 11800 5800 20  0000 C CNN
+F 1 "GND" H 11800 5730 30  0000 C CNN
+F 2 "" H 11800 5800 70  0000 C CNN
+F 3 "" H 11800 5800 70  0000 C CNN
+	1    11800 5800
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 1000 9400 2000 600 
+U 5FD6AC8E
+F0 "U_BW1098OBC_Project_Information" 60
+F1 "BW1098OBC_Project_Information-SchDoc.sch" 60
+$EndSheet
+Wire Wire Line
+	3000 1600 2000 1600
+Wire Wire Line
+	3000 4800 3000 1600
+Wire Wire Line
+	3000 6600 3000 4800
+Wire Wire Line
+	6800 6600 3000 6600
+Wire Wire Line
+	3100 6500 6800 6500
+Wire Wire Line
+	3100 4700 3100 6500
+Wire Wire Line
+	3100 3200 3100 4700
+Wire Wire Line
+	3100 1500 3100 3200
+Wire Wire Line
+	2000 1500 3100 1500
+Wire Wire Line
+	3200 1400 2000 1400
+Wire Wire Line
+	3200 3100 3200 1400
+Wire Wire Line
+	3200 4600 3200 3100
+Wire Wire Line
+	3200 6400 3200 4600
+Wire Wire Line
+	6800 6400 3200 6400
+Wire Wire Line
+	3000 4800 6800 4800
+Wire Wire Line
+	3100 4700 6800 4700
+Wire Wire Line
+	3200 4600 6800 4600
+Wire Wire Line
+	2900 3300 6800 3300
+Wire Wire Line
+	2900 1700 2900 3300
+Wire Wire Line
+	2000 1700 2900 1700
+Wire Wire Line
+	3100 3200 6800 3200
+Wire Wire Line
+	3200 3100 6800 3100
+Wire Wire Line
+	8700 5200 8300 5200
+Wire Wire Line
+	8700 7000 8700 5200
+Wire Wire Line
+	8300 7000 8700 7000
+Wire Wire Line
+	3300 5800 10300 5800
+Wire Wire Line
+	3300 1300 3300 5800
+Wire Wire Line
+	2000 1300 3300 1300
+Wire Wire Line
+	10000 5700 10300 5700
+Wire Wire Line
+	10000 3000 10000 5700
+Wire Wire Line
+	10000 1200 10000 3000
+Wire Wire Line
+	2000 1200 10000 1200
+Wire Wire Line
+	10100 1100 2000 1100
+Wire Wire Line
+	10100 2900 10100 1100
+Wire Wire Line
+	10100 5600 10100 2900
+Wire Wire Line
+	10300 5600 10100 5600
+Wire Wire Line
+	10000 3000 13600 3000
+Wire Wire Line
+	10100 2900 13600 2900
+Wire Wire Line
+	13600 5100 8300 5100
+Connection ~ 3000 4800
+Connection ~ 3100 4700
+Connection ~ 3100 3200
+Connection ~ 3200 4600
+Connection ~ 3200 3100
+Connection ~ 10000 3000
+Connection ~ 10100 2900
+$Comp
+L MP_Mounting-Holes MP5
+U 1 1 5FD52FB2
+P 13000 8900
+F 0 "MP5" H 12900 9100 60  0000 L BNN
+F 1 "=CurrentFootprint" H 13100 8900 60  0000 L BNN
+F 2 "" H 13100 8900 60  0000 C CNN
+F 3 "" H 13100 8900 60  0000 C CNN
+	1    13000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID6
+U 1 1 5FD52FB1
+P 14800 9900
+F 0 "FID6" H 14800 9700 60  0000 L BNN
+F 1 "" H 14800 9900 50  0001 C CNN
+F 2 "" H 14800 9900 50  0001 C CNN
+F 3 "" H 14800 9900 50  0001 C CNN
+	1    14800 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP_Mounting-Holes MP6
+U 1 1 5FD52FB0
+P 14000 8900
+F 0 "MP6" H 13900 9100 60  0000 L BNN
+F 1 "=CurrentFootprint" H 14100 8900 60  0000 L BNN
+F 2 "" H 14100 8900 60  0000 C CNN
+F 3 "" H 14100 8900 60  0000 C CNN
+	1    14000 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP_Mounting-Holes MP7
+U 1 1 5FD52FAF
+P 13000 9400
+F 0 "MP7" H 12900 9600 60  0000 L BNN
+F 1 "=CurrentFootprint" H 13100 9400 60  0000 L BNN
+F 2 "" H 13100 9400 60  0000 C CNN
+F 3 "" H 13100 9400 60  0000 C CNN
+	1    13000 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP_Mounting-Holes MP8
+U 1 1 5FD52FAE
+P 14000 9400
+F 0 "MP8" H 13900 9600 60  0000 L BNN
+F 1 "=CurrentFootprint" H 14100 9400 60  0000 L BNN
+F 2 "" H 14100 9400 60  0000 C CNN
+F 3 "" H 14100 9400 60  0000 C CNN
+	1    14000 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID1
+U 1 1 5FD52FAD
+P 12300 9900
+F 0 "FID1" H 12300 9700 60  0000 L BNN
+F 1 "" H 12300 9900 50  0001 C CNN
+F 2 "" H 12300 9900 50  0001 C CNN
+F 3 "" H 12300 9900 50  0001 C CNN
+	1    12300 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID2
+U 1 1 5FD52FAC
+P 12800 9900
+F 0 "FID2" H 12800 9700 60  0000 L BNN
+F 1 "" H 12800 9900 50  0001 C CNN
+F 2 "" H 12800 9900 50  0001 C CNN
+F 3 "" H 12800 9900 50  0001 C CNN
+	1    12800 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID3
+U 1 1 5FD52FAB
+P 13300 9900
+F 0 "FID3" H 13300 9700 60  0000 L BNN
+F 1 "" H 13300 9900 50  0001 C CNN
+F 2 "" H 13300 9900 50  0001 C CNN
+F 3 "" H 13300 9900 50  0001 C CNN
+	1    13300 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID4
+U 1 1 5FD52FAA
+P 13800 9900
+F 0 "FID4" H 13800 9700 60  0000 L BNN
+F 1 "" H 13800 9900 50  0001 C CNN
+F 2 "" H 13800 9900 50  0001 C CNN
+F 3 "" H 13800 9900 50  0001 C CNN
+	1    13800 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL FID5
+U 1 1 5FD52FA9
+P 14300 9900
+F 0 "FID5" H 14300 9700 60  0000 L BNN
+F 1 "" H 14300 9900 50  0001 C CNN
+F 2 "" H 14300 9900 50  0001 C CNN
+F 3 "" H 14300 9900 50  0001 C CNN
+	1    14300 9900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	12200 10200 16800 10200
+Wire Notes Line
+	12200 10700 16800 10700
+$EndSCHEMATC

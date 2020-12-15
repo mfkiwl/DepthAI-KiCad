@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name BW1098OBC_IMX378-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098OBC_IMX378-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name BW1098OBC_LEFT_OV9282-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098OBC_LEFT_OV9282-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name BW1098OBC_Power_Supply-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098OBC_Power_Supply-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name BW1098OBC_RIGHT_OV9282-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098OBC_RIGHT_OV9282-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name BW1098OBC_USB-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098OBC_USB-SchDoc-rescue.lib)(options "")(descr ""))
+  (lib (name BW1098OBC_IMX378-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098OBC_IMX378-rescue.lib)(options "")(descr ""))
+  (lib (name BW1098OBC_TopLevel-SchDoc-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098OBC_TopLevel-SchDoc-rescue.lib)(options "")(descr ""))
+)
