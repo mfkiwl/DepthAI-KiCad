@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 8
+Sheet 1 1
 Title "BW1098OBC_IMX378-SchDoc"
 Date "14 12 2020"
 Rev ""
@@ -40,19 +40,13 @@ Text Notes 13350 10700 0    60   ~ 0
 Text Notes 12700 10800 0    60   ~ 12
 =drawn_by
 Wire Notes Line
-	12200 10200 15800 10200
-Wire Notes Line
 	12200 10800 12200 10200
 Wire Notes Line
 	14700 10400 12200 10400
 Wire Notes Line
 	12900 10600 12900 10400
 Wire Notes Line
-	12200 10700 15800 10700
-Wire Notes Line
 	13800 10700 13800 10400
-Wire Notes Line
-	15800 10200 16800 10200
 Wire Notes Line
 	15800 10700 15800 10200
 Text Notes 12250 10350 0    60   ~ 0
@@ -79,8 +73,6 @@ Text Notes 12500 10560 0    72   ~ 0
 Tabloid
 Wire Notes Line
 	14700 10600 12200 10600
-Wire Notes Line
-	16800 10700 15800 10700
 Text Label 9600 600  0    72   ~ 0
 On the BW1097, the IMX378 camera module is hardwired into the "Cam-A" logical position. This means the logic which used to be required to support the module being plugged into different physical connectors (and different logical positions) is no longer needed and can be removed.     Note: It is still a limitation that the clock source for the cameras must be shared between CAMA/C and CAMB/D.  
 Text GLabel 400  1000 2    60   Input ~ 0
@@ -159,45 +151,19 @@ Sensor Clock Input
 Text Notes 10000 4000 0    60   ~ 0
 6 - 27 MHz
 Wire Notes Line
-	8700 3500 6700 3500
-Wire Notes Line
 	8700 4000 8700 3500
-Wire Notes Line
-	6700 4000 8700 4000
-Wire Notes Line
-	6700 3500 6700 4000
 Wire Notes Line
 	7500 4000 7500 3500
 Wire Notes Line
-	9800 3500 8700 3500
-Wire Notes Line
 	9800 4000 9800 3500
 Wire Notes Line
-	8700 4000 9800 4000
-Wire Notes Line
-	11100 3500 9800 3500
-Wire Notes Line
-	11100 4000 11100 3500
-Wire Notes Line
-	9800 4000 11100 4000
-Wire Notes Line
 	11100 3600 6700 3600
-Wire Notes Line
-	8700 3900 6700 3900
-Wire Notes Line
-	11100 3900 8700 3900
-Wire Notes Line
-	8710 3500 8700 3500
 Wire Notes Line
 	8690 3500 8690 4000
 Text Notes 8100 3500 0    60   ~ 0
 MODULE & SENSOR INFORMATION
 Wire Notes Line
-	6700 3400 6700 3500
-Wire Notes Line
 	11100 3400 6700 3400
-Wire Notes Line
-	11100 3500 11100 3400
 Wire Notes Line
 	6500 7900 6500 3000
 Wire Notes Line
@@ -665,19 +631,7 @@ Wire Notes Line
 Wire Notes Line
 	3400 1450 3400 1050
 Wire Notes Line
-	3800 1450 3800 1050
-Wire Notes Line
-	4500 1450 4500 1050
-Wire Notes Line
-	3800 1050 3800 950 
-Wire Notes Line
-	4500 1050 4500 950 
-Wire Notes Line
-	3800 1150 3000 1150
-Wire Notes Line
 	3800 1050 3000 1050
-Wire Notes Line
-	5200 1150 3800 1150
 Text Label 1200 400  0    60   ~ 0
 Place FBs and caps close to their associated camera connector.
 Connection ~ 1200 1600
@@ -699,7 +653,7 @@ Connection ~ 9900 5100
 Connection ~ 10000 7400
 Connection ~ 10000 6900
 $Comp
-L 2508056017Y2 FB1
+L BW1098OBC_IMX378-SchDoc-rescue:2508056017Y2- FB1
 U 1 1 5FD7E85E
 P 1400 1000
 F 0 "FB1" H 1500 1050 60  0000 L BNN
@@ -710,7 +664,7 @@ F 3 "" H 1500 870 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GRM155R71A104JA01D C1
+L BW1098OBC_IMX378-SchDoc-rescue:GRM155R71A104JA01D- C1
 U 1 1 5FD7E85D
 P 7400 7200
 F 0 "C1" V 7510 7110 60  0000 R TNN
@@ -722,7 +676,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L A12N02A-201_Connector J2
+L BW1098OBC_IMX378-SchDoc-rescue:A12N02A-201_Connector- J2
 U 1 1 5FD7E85C
 P 8000 6000
 F 0 "J2" H 8200 7600 60  0000 L BNN
@@ -733,7 +687,7 @@ F 3 "" H 8200 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2508056017Y2 FB2
+L BW1098OBC_IMX378-SchDoc-rescue:2508056017Y2- FB2
 U 1 1 5FD7E85B
 P 1400 1300
 F 0 "FB2" H 1500 1350 60  0000 L BNN
@@ -744,7 +698,7 @@ F 3 "" H 1500 1170 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2508056017Y2 FB3
+L BW1098OBC_IMX378-SchDoc-rescue:2508056017Y2- FB3
 U 1 1 5FD7E85A
 P 1400 1600
 F 0 "FB3" H 1500 1650 60  0000 L BNN
@@ -755,7 +709,7 @@ F 3 "" H 1500 1470 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RC0402FR-1310KL R1
+L BW1098OBC_IMX378-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue R1
 U 1 1 5FD7E859
 P 11000 5200
 F 0 "R1" H 11090 5230 60  0000 L BNN
@@ -766,7 +720,7 @@ F 3 "" H 11090 5070 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GRM188R61A106ME69D C6
+L BW1098OBC_IMX378-SchDoc-rescue:GRM188R61A106ME69D- C6
 U 1 1 5FD7E858
 P 10600 7200
 F 0 "C6" V 10710 7110 60  0000 R TNN
@@ -778,7 +732,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GRM155R71A104JA01D C5
+L BW1098OBC_IMX378-SchDoc-rescue:GRM155R71A104JA01D- C5
 U 1 1 5FD7E857
 P 10000 7200
 F 0 "C5" V 10110 7110 60  0000 R TNN
@@ -790,7 +744,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GRM188R61A106ME69D C4
+L BW1098OBC_IMX378-SchDoc-rescue:GRM188R61A106ME69D- C4
 U 1 1 5FD7E856
 P 9300 7200
 F 0 "C4" V 9410 7110 60  0000 R TNN
@@ -802,7 +756,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GRM188R61A106ME69D C2
+L BW1098OBC_IMX378-SchDoc-rescue:GRM188R61A106ME69D- C2
 U 1 1 5FD7E855
 P 8000 7200
 F 0 "C2" V 8110 7110 60  0000 R TNN
@@ -814,7 +768,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GRM155R71A104JA01D C3
+L BW1098OBC_IMX378-SchDoc-rescue:GRM155R71A104JA01D- C3
 U 1 1 5FD7E854
 P 8700 7200
 F 0 "C3" V 8810 7110 60  0000 R TNN
@@ -825,4 +779,24 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	1    8700 7200
 	0    -1   -1   0   
 $EndComp
+Wire Notes Line
+	12200 10200 16800 10200
+Wire Notes Line
+	12200 10700 16800 10700
+Wire Notes Line
+	6700 3400 6700 4000
+Wire Notes Line
+	11100 3400 11100 4000
+Wire Notes Line
+	6700 4000 11100 4000
+Wire Notes Line
+	6700 3900 11100 3900
+Wire Notes Line
+	6700 3500 11100 3500
+Wire Notes Line
+	3800 950  3800 1450
+Wire Notes Line
+	4500 950  4500 1450
+Wire Notes Line
+	3000 1150 5200 1150
 $EndSCHEMATC

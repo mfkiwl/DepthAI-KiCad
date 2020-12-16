@@ -43,12 +43,6 @@ Text HLabel 2000 1300 0    60   Output ~ 0
 3V3
 Text HLabel 2000 1700 0    60   Output ~ 0
 1V05
-$Sheet
-S 500  1000 1500 1000
-U 5FD7EFCB
-F0 "U_BW1098OBC_Power_Supply" 60
-F1 "BW1098OBC_Power_Supply-SchDoc.sch" 60
-$EndSheet
 Text HLabel 13600 4700 2    60   BiDi ~ 0
 MIPI_CAM_B
 Text HLabel 13600 3200 2    60   BiDi ~ 0
@@ -73,12 +67,6 @@ Text HLabel 13600 5600 2    60   BiDi ~ 0
 USB
 Text HLabel 13600 5100 2    60   Output ~ 0
 COM_AUX_IO2
-$Sheet
-S 13600 2800 1500 4800
-U 5FD7EFCD
-F0 "U_BW1098OBC_Connector" 60
-F1 "BW1098OBC_Connector-SchDoc.sch" 60
-$EndSheet
 Text HLabel 6800 3100 2    60   Input ~ 0
 2V8
 Text HLabel 6800 3300 2    60   Input ~ 0
@@ -93,12 +81,6 @@ Text HLabel 8300 3700 0    60   Input ~ 0
 GND
 Text HLabel 6800 3200 2    60   Input ~ 0
 1V8
-$Sheet
-S 6800 3000 1500 800 
-U 5FD7EFCF
-F0 "U_BW1098OBC_IMX378" 60
-F1 "BW1098OBC_IMX378-SchDoc.sch" 60
-$EndSheet
 Text HLabel 8300 6500 0    60   BiDi ~ 0
 MIPI_CAM_C
 Text HLabel 8300 6700 0    60   BiDi ~ 0
@@ -115,12 +97,6 @@ Text HLabel 8300 7000 0    60   Input ~ 0
 FSIN2
 Text HLabel 8300 6600 0    60   BiDi ~ 0
 CTL_CAM_B
-$Sheet
-S 6800 6300 1500 1100
-U 5FD7EFD1
-F0 "U_BW1098OBC_RIGHT_OV9282" 60
-F1 "BW1098OBC_RIGHT_OV9282-SchDoc.sch" 60
-$EndSheet
 Text HLabel 8300 4900 0    60   BiDi ~ 0
 I2C2
 Text HLabel 8300 4800 0    60   BiDi ~ 0
@@ -139,12 +115,6 @@ Text HLabel 8300 5200 0    60   Output ~ 0
 FSIN2
 Text HLabel 8300 5100 0    60   Input ~ 0
 COM_AUX_IO2
-$Sheet
-S 6800 4500 1500 1100
-U 5FD7EFD3
-F0 "U_BW1098OBC_LEFT_OV9282" 60
-F1 "BW1098OBC_LEFT_OV9282-SchDoc.sch" 60
-$EndSheet
 $Comp
 L power:GND GND_66
 U 1 1 5FD7E7BA
@@ -177,18 +147,6 @@ Text HLabel 10300 5800 2    60   Input ~ 0
 3V3
 Text HLabel 10300 5600 2    60   Input ~ 0
 VDD_5V
-$Sheet
-S 10300 5500 1500 400 
-U 5FD7F014
-F0 "U_BW1098OBC_USB" 60
-F1 "BW1098OBC_USB-SchDoc.sch" 60
-$EndSheet
-$Sheet
-S 1000 9400 2000 600 
-U 5FD7F01D
-F0 "U_BW1098OBC_Project_Information" 60
-F1 "BW1098OBC_Project_Information-SchDoc.sch" 60
-$EndSheet
 Wire Wire Line
 	3000 1600 2000 1600
 Wire Wire Line
@@ -322,4 +280,46 @@ Text Notes 12600 9950 0    50   ~ 0
 2
 Text Notes 12700 10000 0    50   ~ 0
 8
+$Sheet
+S 6800 6300 1500 1100
+U 5FD7EFD1
+F0 "U_BW1098OBC_RIGHT_OV9282" 60
+F1 "BW1098OBC_RIGHT_OV9282.sch" 60
+$EndSheet
+$Sheet
+S 6800 4500 1500 1100
+U 5FD7EFD3
+F0 "U_BW1098OBC_LEFT_OV9282" 60
+F1 "BW1098OBC_LEFT_OV9282.sch" 60
+$EndSheet
+$Sheet
+S 6800 3000 1500 800 
+U 5FD7EFCF
+F0 "U_BW1098OBC_IMX378" 60
+F1 "BW1098OBC_IMX378.sch" 60
+$EndSheet
+$Sheet
+S 10300 5500 1500 400 
+U 5FD7F014
+F0 "U_BW1098OBC_USB" 60
+F1 "BW1098OBC_USB.sch" 60
+$EndSheet
+$Sheet
+S 13600 2800 1500 4800
+U 5FD7EFCD
+F0 "U_BW1098OBC_Connector" 60
+F1 "BW1098OBC_Connector.sch" 60
+$EndSheet
+$Sheet
+S 1000 9400 2000 600 
+U 5FD7F01D
+F0 "U_BW1098OBC_Project_Information" 60
+F1 "BW1098OBC_Project_Information.sch" 60
+$EndSheet
+$Sheet
+S 500  1000 1500 1000
+U 5FD7EFCB
+F0 "U_BW1098OBC_Power_Supply" 60
+F1 "BW1098OBC_Power_Supply.sch" 60
+$EndSheet
 $EndSCHEMATC
