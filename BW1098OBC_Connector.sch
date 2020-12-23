@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title "BW1098OBC_Connector-SchDoc"
 Date "14 12 2020"
 Rev ""
@@ -1127,9 +1127,11 @@ $EndComp
 Text Notes 750  10150 0    50   ~ 0
 2485_PGOOD and MODULE_nRST both have pull ups to 1.8V \non 1099 module. 2485_PGOOD is held low by open-drain output \non 1099 PMIC until power is good. MODULE_nRST rises with \n1.8V at POR, but can be held low by user button or 1099 JTAG.
 $Comp
-L BW1098OBC_Connector-cache:20021121-00010T1LF J?
+L BW1098OBC_TopLevel-rescue:20021121-00010T1LF-BW1098OBC_Connector-cache J?
 U 1 1 605FCE0C
 P 4250 9550
+AR Path="/605FCE0C" Ref="J?"  Part="1" 
+AR Path="/5FD7EFCD/605FCE0C" Ref="J?"  Part="1" 
 F 0 "J?" H 4650 9700 60  0000 C CNN
 F 1 "20021121-00010T1LF" H 4800 9000 60  0000 C CNN
 F 2 "" H 4250 9550 60  0000 C CNN
@@ -1138,9 +1140,11 @@ F 3 "" H 4250 9550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_Connector-cache:20021121-00010T1LF J?
+L BW1098OBC_TopLevel-rescue:20021121-00010T1LF-BW1098OBC_Connector-cache J?
 U 1 1 605FF28B
 P 7150 9550
+AR Path="/605FF28B" Ref="J?"  Part="1" 
+AR Path="/5FD7EFCD/605FF28B" Ref="J?"  Part="1" 
 F 0 "J?" H 7550 9700 60  0000 C CNN
 F 1 "20021121-00010T1LF" H 7750 9000 60  0000 C CNN
 F 2 "" H 7150 9550 60  0000 C CNN
@@ -1149,9 +1153,11 @@ F 3 "" H 7150 9550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_Connector-cache:20021121-00010T1LF J?
+L BW1098OBC_TopLevel-rescue:20021121-00010T1LF-BW1098OBC_Connector-cache J?
 U 1 1 6060E6D4
 P 10200 9550
+AR Path="/6060E6D4" Ref="J?"  Part="1" 
+AR Path="/5FD7EFCD/6060E6D4" Ref="J?"  Part="1" 
 F 0 "J?" H 10650 9700 60  0000 C CNN
 F 1 "20021121-00010T1LF" H 10800 9000 60  0000 C CNN
 F 2 "" H 10200 9550 60  0000 C CNN
@@ -2457,7 +2463,7 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	13550 3800 13550 4050
 $Comp
-L BW1098OBC_Connector-cache:DF40HC(3.0)-100DS-0.4V_BW1099_G2 J?
+L BW1098OBC_TopLevel-rescue:DF40HC(3.0)-100DS-0.4V_BW1099_G2-BW1098OBC_Connector-cache J?
 U 1 1 5FDB88CE
 P 7350 2000
 F 0 "J?" H 8550 2289 60  0000 C CNN

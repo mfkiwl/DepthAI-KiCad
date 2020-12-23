@@ -1081,7 +1081,7 @@ Parameter Set
 Text Notes 12800 5550 0    50   ~ 0
 SDIO
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
 U 1 1 604DC517
 P 4250 4200
 F 0 "TP?" V 4383 4268 60  0000 C CNN
@@ -1092,7 +1092,7 @@ F 3 "" H 4250 4200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
 U 1 1 6050AA84
 P 4250 4400
 F 0 "TP?" V 4383 4468 60  0000 C CNN
@@ -1103,7 +1103,7 @@ F 3 "" H 4250 4400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
 U 1 1 6052CBCA
 P 5350 4300
 F 0 "TP?" V 5483 4368 60  0000 C CNN
@@ -1114,7 +1114,7 @@ F 3 "" H 5350 4300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
 U 1 1 605596E8
 P 10350 5200
 F 0 "TP?" V 10350 5380 60  0000 L CNN

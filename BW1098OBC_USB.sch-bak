@@ -827,7 +827,7 @@ F 3 "" H 12700 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D- C?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D- C?
 U 1 1 5FD52F8C
 P 3700 1400
 F 0 "C?" V 3810 1310 60  0000 R TNN
@@ -839,7 +839,7 @@ F 4 "6.3V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D- C?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D- C?
 U 1 1 5FD52F8B
 P 3100 1400
 F 0 "C?" V 3210 1310 60  0000 R TNN
@@ -851,7 +851,7 @@ F 4 "6.3V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D- C?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D- C?
 U 1 1 5FD52F8A
 P 11600 5700
 F 0 "C?" V 11710 5610 60  0000 R TNN
@@ -863,7 +863,7 @@ F 4 "6.3V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D- C?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D- C?
 U 1 1 5FD52F89
 P 9200 7200
 F 0 "C?" V 9310 7110 60  0000 R TNN
@@ -987,7 +987,7 @@ F 4 "HD3SS3212RKSR" V 1400 2000 60  0001 C CNN "Manufacturer Part Number 1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
 U 1 1 5FD52F7E
 P 4300 1000
 F 0 "TP?" H 4300 1200 60  0000 L BNN
@@ -998,7 +998,7 @@ F 3 "" H 4300 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
 U 1 1 5FD52F7D
 P 11600 6900
 F 0 "TP?" V 11750 6950 60  0000 L BNN
@@ -1009,7 +1009,7 @@ F 3 "" H 11600 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
 U 1 1 5FD52F7C
 P 11900 7800
 F 0 "TP?" H 11950 8150 60  0000 R TNN
@@ -1020,7 +1020,7 @@ F 3 "" H 11900 7800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BW1098OBC_Power_Supply-SchDoc-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
+L BW1098OBC_Power_Supply-cache:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT- TP?
 U 1 1 5FD52F7B
 P 12200 7800
 F 0 "TP?" H 12250 8150 60  0000 R TNN
