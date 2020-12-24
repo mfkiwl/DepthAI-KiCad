@@ -81,22 +81,6 @@ Text HLabel 4450 6800 0    60   BiDi ~ 0
 I2C2
 Text HLabel 4150 3800 0    60   BiDi ~ 0
 I2C1
-Text Label 5950 3900 0    60   ~ 0
-I2C1_SCL
-Text Label 5950 3800 0    60   ~ 0
-I2C1_SDA
-Text Label 5950 6800 0    60   ~ 0
-I2C2_SCL
-Text Label 5950 6900 0    60   ~ 0
-I2C2_SDA
-Text Label 5600 4300 0    60   ~ 0
-MODULE_nRST
-Text Label 4350 4400 0    60   ~ 0
-2485_WAKEUP
-Text Label 10250 2200 0    60   ~ 0
-UART_TX
-Text Label 10250 2100 0    60   ~ 0
-UART_RX
 Text HLabel 4100 6050 0    60   BiDi ~ 0
 CTL_CAM_B
 Text Label 10250 3700 0    60   ~ 0
@@ -105,83 +89,25 @@ Text Label 5300 6400 0    60   ~ 0
 CAM_B_CLK_OUT
 Text Label 10250 4000 0    60   ~ 0
 CAM_A_PWDN_N
-Text Label 5300 6100 0    60   ~ 0
-CAM_B_PWDN_N
-Text Label 5300 6000 0    60   ~ 0
-CAM_B_D_PWM
-Text Label 10250 4400 0    60   ~ 0
-COM_AUX_IO2
-Text Label 10250 3200 0    60   ~ 0
-USB_TX_P
-Text Label 10250 3300 0    60   ~ 0
-USB_TX_N
-Text Label 10250 2700 0    60   ~ 0
-USB_RX_N
-Text Label 10250 2600 0    60   ~ 0
-USB_RX_P
 Text Notes 5300 1100 0    60   ~ 0
 MIPI Lanes:
 Text Notes 5200 1350 0    60   ~ 0
 Max 2.1 Gbps / lane
 Text Notes 5300 1200 0    60   ~ 0
 DPHYv1.2
-Text GLabel 1000 1000 0    60   Input ~ 0
+Text GLabel 1300 700  0    60   Input ~ 0
 VDD_5V
-$Comp
-L power:GND #VDD_5V0101
-U 1 1 5FD7E8AC
-P 6750 4900
-F 0 "#VDD_5V0101" H 6750 5040 20  0001 C CNN
-F 1 "VDD_5V" H 6650 4900 30  0000 C CNN
-F 2 "" H 6750 4900 70  0000 C CNN
-F 3 "" H 6750 4900 70  0000 C CNN
-	1    6750 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #VBUS0101
-U 1 1 5FD7E8AB
-P 6400 5200
-F 0 "#VBUS0101" H 6400 5340 20  0001 C CNN
-F 1 "VBUS" H 6400 5250 30  0000 C CNN
-F 2 "" H 6400 5200 70  0000 C CNN
-F 3 "" H 6400 5200 70  0000 C CNN
-	1    6400 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #VDD_5V_0104
-U 1 1 5FD7E8AA
-P 10350 4900
-F 0 "#VDD_5V_0104" H 10300 5000 20  0001 C CNN
-F 1 "VDD_5V" H 10250 4800 30  0000 C CNN
-F 2 "" H 10350 4900 70  0000 C CNN
-F 3 "" H 10350 4900 70  0000 C CNN
-	1    10350 4900
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #VDD_5V_0105
-U 1 1 5FD7E8A9
-P 1200 1000
-F 0 "#VDD_5V_0105" H 1200 1140 20  0000 C CNN
-F 1 "VDD_5V" H 1200 1110 30  0000 C CNN
-F 2 "" H 1200 1000 70  0000 C CNN
-F 3 "" H 1200 1000 70  0000 C CNN
-	1    1200 1000
-	1    0    0    -1  
-$EndComp
-Text GLabel 1000 1600 0    60   Input ~ 0
+Text GLabel 1300 1300 0    60   Input ~ 0
 GND
 $Comp
 L power:GND #GND0101
 U 1 1 5FD7E8A8
-P 1150 1600
-F 0 "#GND0101" H 1150 1600 20  0000 C CNN
-F 1 "GND" H 1150 1530 30  0000 C CNN
-F 2 "" H 1150 1600 70  0000 C CNN
-F 3 "" H 1150 1600 70  0000 C CNN
-	1    1150 1600
+P 1450 1300
+F 0 "#GND0101" H 1450 1300 20  0000 C CNN
+F 1 "GND" H 1450 1230 30  0000 C CNN
+F 2 "" H 1450 1300 70  0000 C CNN
+F 3 "" H 1450 1300 70  0000 C CNN
+	1    1450 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -263,67 +189,26 @@ F 3 "" H 8950 1000 70  0000 C CNN
 	1    8950 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 1300 0    60   Input ~ 0
+Text GLabel 1300 1000 0    60   Input ~ 0
 VBUS
-$Comp
-L power:GND #VBUS_0107
-U 1 1 5FD7E8A1
-P 1200 1300
-F 0 "#VBUS_0107" H 1200 1440 20  0000 C CNN
-F 1 "VBUS" H 1200 1410 30  0000 C CNN
-F 2 "" H 1200 1300 70  0000 C CNN
-F 3 "" H 1200 1300 70  0000 C CNN
-	1    1200 1300
-	1    0    0    -1  
-$EndComp
 Text HLabel 12100 2950 2    60   BiDi ~ 0
 USB
-Text Label 10250 2900 0    60   ~ 0
-USB_D_P
-Text Label 10250 3000 0    60   ~ 0
-USB_D_N
-Text Label 10900 3300 0    70   ~ 0
+Text Label 10400 3300 0    70   ~ 0
 DIFFPAIR
-Text Label 10900 3200 0    70   ~ 0
+Text Label 10400 3200 0    70   ~ 0
 DIFFPAIR
-Text Label 10850 3000 0    70   ~ 0
+Text Label 10400 3000 0    70   ~ 0
 DIFFPAIR
-Text Label 10850 2900 0    70   ~ 0
+Text Label 10400 2900 0    70   ~ 0
 DIFFPAIR
-Text Label 10900 2700 0    70   ~ 0
+Text Label 10400 2700 0    70   ~ 0
 DIFFPAIR
-Text Label 10900 2600 0    70   ~ 0
+Text Label 10400 2600 0    70   ~ 0
 DIFFPAIR
-Text Label 5450 9550 0    60   ~ 0
-I2C3_SCL
-Text Label 5450 9650 0    60   ~ 0
-I2C3_SDA
-Text Label 3700 9750 0    60   ~ 0
-2485_PGOOD
-Text Label 3700 9850 0    60   ~ 0
-2485_WAKEUP
-Text Label 10100 6800 0    60   ~ 0
-I2C3_SCL
-Text Label 10100 6900 0    60   ~ 0
-I2C3_SDA
 Text HLabel 14300 3900 2    60   BiDi ~ 0
 CTL_CAM_A
-Text Label 12650 3900 0    60   ~ 0
-CAM_A_CLK_OUT
-Text Label 12650 4000 0    60   ~ 0
-CAM_A_PWDN_N
-Text GLabel 11200 4400 2    60   Output ~ 0
+Text GLabel 11200 4400 2    60   UnSpc ~ 0
 COM_AUX_IO2
-Text Label 6300 5700 0    60   ~ 0
-SD_HST0_CD
-Text Label 6300 5800 0    60   ~ 0
-SD_HST0_CLK
-Text Label 6300 5900 0    60   ~ 0
-SD_HST0_CMD
-Text Label 6300 6200 0    60   ~ 0
-AUX_IO_IRQ
-Text Label 3700 9650 0    60   ~ 0
-AUX_IO_IRQ
 Text Label 10100 5700 0    60   ~ 0
 SPI_SS_1
 Text Label 10100 5800 0    60   ~ 0
@@ -338,24 +223,6 @@ Text Label 10100 6000 0    60   ~ 0
 SPI_SIO2
 Text Label 10100 6100 0    60   ~ 0
 SPI_SIO3
-Text Label 6600 9850 0    60   ~ 0
-SPI_SS_1
-Text Label 6600 9750 0    60   ~ 0
-SPI_SS_0
-Text Label 10250 4300 0    60   ~ 0
-SD_HST0_D0
-Text Label 10250 4200 0    60   ~ 0
-SD_HST0_D1
-Text Label 10250 4100 0    60   ~ 0
-SD_HST0_D2
-Text Label 10250 3900 0    60   ~ 0
-SD_HST0_D3
-Text Label 3700 9550 0    60   ~ 0
-MODULE_nRST
-Text Label 5450 9850 0    60   ~ 0
-UART_TX
-Text Label 5450 9750 0    60   ~ 0
-UART_RX
 $Comp
 L power:GND #GND_0141
 U 1 1 5FD7E89C
@@ -382,47 +249,19 @@ Text Notes 1200 4450 0    72   ~ 14
 Mark "5V" on PCB
 Text Notes 850  7000 0    72   ~ 14
 Mark "2485_PGOOD" on PCB
-Text Label 900  6200 0    60   ~ 0
-2485_PGOOD
-$Comp
-L power:GND #VDD_5V_0106
-U 1 1 5FD7E896
-P 1200 2550
-F 0 "#VDD_5V_0106" H 1200 2690 20  0001 C CNN
-F 1 "VDD_5V" H 1400 2500 30  0000 C CNN
-F 2 "" H 1200 2550 70  0000 C CNN
-F 3 "" H 1200 2550 70  0000 C CNN
-	1    1200 2550
-	-1   0    0    1   
-$EndComp
 Text Notes 1100 9450 0    72   ~ 14
 Mark "nRST" on PCB
 $Comp
-L power:GND #VDD_5V_0107
-U 1 1 5FD7E895
-P 1850 7650
-F 0 "#VDD_5V_0107" H 1250 7700 20  0001 C CNN
-F 1 "VDD_5V" H 1700 7600 30  0000 C CNN
-F 2 "" H 1850 7650 70  0000 C CNN
-F 3 "" H 1850 7650 70  0000 C CNN
-	1    1850 7650
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #GND_0143
 U 1 1 5FD7E894
-P 1850 9100
-F 0 "#GND_0143" H 1850 9100 20  0000 C CNN
-F 1 "GND" H 1850 9030 30  0000 C CNN
-F 2 "" H 1850 9100 70  0000 C CNN
-F 3 "" H 1850 9100 70  0000 C CNN
-	1    1850 9100
+P 2100 9100
+F 0 "#GND_0143" H 2100 9100 20  0000 C CNN
+F 1 "GND" H 2100 9030 30  0000 C CNN
+F 2 "" H 2100 9100 70  0000 C CNN
+F 3 "" H 2100 9100 70  0000 C CNN
+	1    2100 9100
 	1    0    0    -1  
 $EndComp
-Text Label 950  8650 0    60   ~ 0
-MODULE_nRST
-Text Label 4350 4200 0    60   ~ 0
-2485_PGOOD
 $Comp
 L power:GND #GND_0144
 U 1 1 5FD7E893
@@ -434,8 +273,6 @@ F 3 "" H 4150 10050 70  0000 C CNN
 	1    4150 10050
 	1    0    0    -1  
 $EndComp
-Text Label 6600 9550 0    60   ~ 0
-SPI_SCK
 $Comp
 L power:GND #GND_0145
 U 1 1 5FD7E892
@@ -458,28 +295,6 @@ F 3 "" H 8350 10050 70  0000 C CNN
 	1    8350 10050
 	1    0    0    -1  
 $EndComp
-Text Label 8450 9550 0    60   ~ 0
-SPI_SIO0
-Text Label 8450 9650 0    60   ~ 0
-SPI_SIO1
-Text Label 8450 9750 0    60   ~ 0
-SPI_SIO2
-Text Label 8450 9850 0    60   ~ 0
-SPI_SIO3
-Text Label 9400 9850 0    60   ~ 0
-SD_HST0_CD
-Text Label 9400 9550 0    60   ~ 0
-SD_HST0_CLK
-Text Label 9400 9750 0    60   ~ 0
-SD_HST0_CMD
-Text Label 11400 9550 0    60   ~ 0
-SD_HST0_D0
-Text Label 11400 9650 0    60   ~ 0
-SD_HST0_D1
-Text Label 11400 9750 0    60   ~ 0
-SD_HST0_D2
-Text Label 11400 9850 0    60   ~ 0
-SD_HST0_D3
 $Comp
 L power:GND #GND_0147
 U 1 1 5FD7E890
@@ -524,10 +339,6 @@ Text Label 12950 6300 0    60   ~ 0
 SD_HST0_CMD
 Wire Wire Line
 	10350 5100 9750 5100
-Wire Wire Line
-	11350 3700 11350 3900
-Wire Wire Line
-	9750 3700 11350 3700
 Wire Wire Line
 	4950 6900 7350 6900
 Wire Wire Line
@@ -659,13 +470,13 @@ Wire Wire Line
 Wire Wire Line
 	7350 2300 7250 2300
 Wire Wire Line
-	1200 1000 1000 1000
+	1500 700  1300 700 
 Wire Wire Line
 	6750 4900 6750 5000
 Wire Wire Line
 	7350 4900 6750 4900
 Wire Wire Line
-	1150 1600 1000 1600
+	1450 1300 1300 1300
 Wire Wire Line
 	11400 3200 9750 3200
 Wire Wire Line
@@ -703,7 +514,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 8200 7250 8100
 Wire Wire Line
-	1200 1300 1000 1300
+	1500 1000 1300 1000
 Wire Wire Line
 	11400 2900 9750 2900
 Wire Wire Line
@@ -714,10 +525,6 @@ Wire Wire Line
 	5400 4300 5350 4300
 Wire Wire Line
 	7350 4300 5400 4300
-Wire Wire Line
-	5350 9550 5900 9550
-Wire Wire Line
-	5350 9650 5900 9650
 Wire Wire Line
 	3650 9850 4250 9850
 Wire Wire Line
@@ -793,21 +600,11 @@ Wire Wire Line
 Wire Wire Line
 	4250 9550 3650 9550
 Wire Wire Line
-	6550 9750 7150 9750
-Wire Wire Line
-	6550 9850 7150 9850
-Wire Wire Line
-	5350 9750 5900 9750
-Wire Wire Line
-	5350 9850 5900 9850
-Wire Wire Line
 	5450 9950 5450 10050
 Wire Wire Line
 	5350 9950 5450 9950
 Wire Wire Line
-	1550 6200 900  6200
-Wire Wire Line
-	1550 8650 900  8650
+	1800 8650 1150 8650
 Wire Wire Line
 	1200 3700 1400 3700
 Wire Wire Line
@@ -817,8 +614,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 9950 4150 9950
 Wire Wire Line
-	6550 9550 7150 9550
-Wire Wire Line
 	7050 9950 7050 10050
 Wire Wire Line
 	7150 9950 7050 9950
@@ -827,31 +622,9 @@ Wire Wire Line
 Wire Wire Line
 	8250 9950 8350 9950
 Wire Wire Line
-	8250 9850 8900 9850
-Wire Wire Line
-	8250 9750 8900 9750
-Wire Wire Line
-	8250 9650 8900 9650
-Wire Wire Line
-	8250 9550 8900 9550
-Wire Wire Line
 	7050 9650 7050 9950
 Wire Wire Line
 	7150 9650 7050 9650
-Wire Wire Line
-	10200 9750 9300 9750
-Wire Wire Line
-	12200 9750 11300 9750
-Wire Wire Line
-	12200 9650 11300 9650
-Wire Wire Line
-	12200 9550 11300 9550
-Wire Wire Line
-	12200 9850 11300 9850
-Wire Wire Line
-	10200 9550 9300 9550
-Wire Wire Line
-	10200 9850 9300 9850
 Wire Wire Line
 	10100 9950 10100 10050
 Wire Wire Line
@@ -882,7 +655,6 @@ Wire Wire Line
 	13750 6400 12850 6400
 Connection ~ 5400 4300
 Connection ~ 6750 5000
-Connection ~ 6750 4900
 Connection ~ 7050 9950
 Connection ~ 7250 8100
 Connection ~ 7250 7800
@@ -917,9 +689,6 @@ Connection ~ 9850 2500
 Connection ~ 10100 9950
 Connection ~ 10350 5100
 Connection ~ 10350 5000
-Connection ~ 10350 4900
-Wire Wire Line
-	11350 3900 13550 3900
 Wire Wire Line
 	9750 4000 13550 4000
 Wire Wire Line
@@ -1136,6 +905,7 @@ F 0 "J5" H 4650 9700 60  0000 C CNN
 F 1 "20021121-00010T1LF" H 4800 9000 60  0000 C CNN
 F 2 "" H 4250 9550 60  0001 C CNN
 F 3 "" H 4250 9550 60  0000 C CNN
+F 4 "DNP" H 4700 8850 50  0000 C CNN "Populated"
 	1    4250 9550
 	1    0    0    -1  
 $EndComp
@@ -1149,6 +919,7 @@ F 0 "J6" H 7550 9700 60  0000 C CNN
 F 1 "20021121-00010T1LF" H 7750 9000 60  0000 C CNN
 F 2 "" H 7150 9550 60  0001 C CNN
 F 3 "" H 7150 9550 60  0000 C CNN
+F 4 "DNP" H 7550 8850 50  0000 C CNN "Populated"
 	1    7150 9550
 	1    0    0    -1  
 $EndComp
@@ -1162,60 +933,49 @@ F 0 "J8" H 10650 9700 60  0000 C CNN
 F 1 "20021121-00010T1LF" H 10800 9000 60  0000 C CNN
 F 2 "" H 10200 9550 60  0001 C CNN
 F 3 "" H 10200 9550 60  0000 C CNN
-F 4 "DNP" H 10200 9550 50  0000 C CNN "Population"
+F 4 "DNP" H 10700 8900 50  0000 C CNN "Population"
 	1    10200 9550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 60652F6E
-P 1850 8150
-F 0 "D3" V 1889 8032 50  0000 R CNN
-F 1 "ORANGE0603" V 1798 8032 50  0000 R CNN
-F 2 "" H 1850 8150 50  0001 C CNN
-F 3 "~" H 1850 8150 50  0001 C CNN
-	1    1850 8150
+P 2100 8150
+F 0 "D3" V 2139 8032 50  0000 R CNN
+F 1 "ORANGE0603" V 2048 8032 50  0000 R CNN
+F 2 "" H 2100 8150 50  0001 C CNN
+F 3 "~" H 2100 8150 50  0001 C CNN
+	1    2100 8150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R28
 U 1 1 6065499D
-P 1850 7750
-F 0 "R28" H 1918 7796 50  0000 L CNN
-F 1 "1k 0402" H 1918 7705 50  0000 L CNN
-F 2 "" H 1850 7750 50  0001 C CNN
-F 3 "~" H 1850 7750 50  0001 C CNN
-	1    1850 7750
+P 2100 7750
+F 0 "R28" H 2168 7796 50  0000 L CNN
+F 1 "1k 0402" H 2168 7705 50  0000 L CNN
+F 2 "" H 2100 7750 50  0001 C CNN
+F 3 "~" H 2100 7750 50  0001 C CNN
+	1    2100 7750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 7850 1850 8000
+	2100 7850 2100 8000
 $Comp
 L Device:Q_NMOS_GSD Q3
 U 1 1 6069C46E
-P 1750 8650
-F 0 "Q3" H 1955 8696 50  0000 L CNN
-F 1 "RE1C002UNTCL" H 1955 8605 50  0000 L CNN
-F 2 "" H 1950 8750 50  0001 C CNN
-F 3 "~" H 1750 8650 50  0001 C CNN
-	1    1750 8650
+P 2000 8650
+F 0 "Q3" H 2205 8696 50  0000 L CNN
+F 1 "RE1C002UNTCL" H 2205 8605 50  0000 L CNN
+F 2 "" H 2200 8750 50  0001 C CNN
+F 3 "~" H 2000 8650 50  0001 C CNN
+	1    2000 8650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 9100 1850 8850
+	2100 9100 2100 8850
 Wire Wire Line
-	1850 8450 1850 8300
-$Comp
-L power:GND #VDD_5V_0108
-U 1 1 6074B316
-P 1850 5200
-F 0 "#VDD_5V_0108" H 1250 5250 20  0001 C CNN
-F 1 "VDD_5V" H 1700 5150 30  0000 C CNN
-F 2 "" H 1850 5200 70  0000 C CNN
-F 3 "" H 1850 5200 70  0000 C CNN
-	1    1850 5200
-	-1   0    0    1   
-$EndComp
+	2100 8450 2100 8300
 $Comp
 L power:GND #GND_0152
 U 1 1 6074B31C
@@ -1266,17 +1026,6 @@ Wire Wire Line
 	1850 6650 1850 6400
 Wire Wire Line
 	1850 6000 1850 5850
-$Comp
-L power:GND #VDD_5V_0109
-U 1 1 607C6007
-P 1700 2700
-F 0 "#VDD_5V_0109" H 1100 2750 20  0001 C CNN
-F 1 "VDD_5V" H 1550 2650 30  0000 C CNN
-F 2 "" H 1700 2700 70  0000 C CNN
-F 3 "" H 1700 2700 70  0000 C CNN
-	1    1700 2700
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #GND_0153
 U 1 1 607C600D
@@ -2262,26 +2011,6 @@ EndData
 $EndBitmap
 Wire Wire Line
 	3950 3400 7350 3400
-Text Label 3950 2200 2    60   ~ 0
-MIPI_RX4_C_P
-Text Label 3950 2100 2    60   ~ 0
-MIPI_RX4_C_N
-Text Label 3950 2400 2    60   ~ 0
-MIPI_RX4_D0_N
-Text Label 3950 2500 2    60   ~ 0
-MIPI_RX4_D0_P
-Text Label 3950 2700 2    60   ~ 0
-MIPI_RX4_D1_N
-Text Label 3950 2800 2    60   ~ 0
-MIPI_RX4_D1_P
-Text Label 3950 3000 2    60   ~ 0
-MIPI_RX5_D0_N
-Text Label 3950 3100 2    60   ~ 0
-MIPI_RX5_D0_P
-Text Label 3950 3300 2    60   ~ 0
-MIPI_RX5_D1_N
-Text Label 3950 3400 2    60   ~ 0
-MIPI_RX5_D1_P
 Text Notes 3800 2000 2    50   ~ 0
 MIPI_CAM_A
 Wire Wire Line
@@ -2314,10 +2043,6 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	3250 3450 3950 3450
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	3950 3450 3950 1900
-Text Label 4650 3900 2    60   ~ 0
-I2C1_SCL
-Text Label 4650 3800 2    60   ~ 0
-I2C1_SDA
 Wire Wire Line
 	4650 3800 7350 3800
 Wire Wire Line
@@ -2334,12 +2059,6 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	4150 3950 4650 3950
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	4650 3950 4650 3700
-Text Label 4950 6200 2    60   ~ 0
-CAM_B_CLK_OUT
-Text Label 4950 6100 2    60   ~ 0
-CAM_B_PWDN_N
-Text Label 4950 6000 2    60   ~ 0
-CAM_B_D_PWM
 Wire Notes Line
 	4950 5900 4950 6250
 Wire Notes Line
@@ -2358,26 +2077,10 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	4250 8050 4250 7200
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	4950 7200 4950 8050
-Text Label 4950 8000 2    60   ~ 0
-MIPI_RX2_C_P
-Text Label 4950 7900 2    60   ~ 0
-MIPI_RX2_C_N
-Text Label 4950 7600 2    60   ~ 0
-MIPI_RX2_D0_N
-Text Label 4950 7700 2    60   ~ 0
-MIPI_RX2_D0_P
-Text Label 4950 7300 2    60   ~ 0
-MIPI_RX2_D1_N
-Text Label 4950 7400 2    60   ~ 0
-MIPI_RX2_D1_P
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	4250 8050 4950 8050
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	4250 7200 4950 7200
-Text Label 4950 6900 2    60   ~ 0
-I2C2_SCL
-Text Label 4950 6800 2    60   ~ 0
-I2C2_SDA
 Wire Notes Line
 	4950 6950 4450 6950
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
@@ -2388,7 +2091,7 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	4450 6950 4950 6950
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	4950 6950 4950 6700
-Text Notes 4700 8200 2    50   ~ 0
+Text Notes 4700 7200 2    50   ~ 0
 MIPI_CAM_B
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	12100 2500 12100 3350
@@ -2398,18 +2101,6 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	12100 3350 11400 3350
 Text Notes 11700 2450 0    50   ~ 0
 MIPI_CAM_B
-Text Label 11400 3200 0    60   ~ 0
-USB_TX_P
-Text Label 11400 3300 0    60   ~ 0
-USB_TX_N
-Text Label 11400 2700 0    60   ~ 0
-USB_RX_N
-Text Label 11400 2600 0    60   ~ 0
-USB_RX_P
-Text Label 11400 2900 0    60   ~ 0
-USB_D_P
-Text Label 11400 3000 0    60   ~ 0
-USB_D_N
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	11400 2500 11400 3350
 Wire Notes Line
@@ -2422,10 +2113,6 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	11500 6700 11000 6700
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	11000 6700 11000 6950
-Text Label 11000 6800 0    60   ~ 0
-I2C3_SCL
-Text Label 11000 6900 0    60   ~ 0
-I2C3_SDA
 Text HLabel 11500 6800 2    60   BiDi ~ 0
 I2C3
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
@@ -2434,24 +2121,8 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	12550 7200 11850 7200
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	12550 8050 11850 8050
-Text Label 11850 8000 0    60   ~ 0
-MIPI_RX3_C_P
-Text Label 11850 7900 0    60   ~ 0
-MIPI_RX3_C_N
-Text Label 11850 7600 0    60   ~ 0
-MIPI_RX3_D0_N
-Text Label 11850 7700 0    60   ~ 0
-MIPI_RX3_D0_P
-Text Label 11850 7300 0    60   ~ 0
-MIPI_RX3_D1_N
-Text Label 11850 7400 0    60   ~ 0
-MIPI_RX3_D1_P
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	11850 7200 11850 8050
-Text Label 13550 3900 0    60   ~ 0
-CAM_A_CLK_OUT
-Text Label 13550 4000 0    60   ~ 0
-CAM_A_PWDN_N
 Wire Notes Line
 	13800 3800 14300 3800
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
@@ -2487,4 +2158,202 @@ $EndComp
 Connection ~ 11050 4400
 Wire Wire Line
 	11050 4400 11200 4400
+Text GLabel 11850 7300 2    50   UnSpc ~ 0
+MIPI_RX3_D1_N
+Text GLabel 11850 7400 2    50   UnSpc ~ 0
+MIPI_RX3_D1_P
+Text GLabel 11850 7600 2    50   UnSpc ~ 0
+MIPI_RX3_D0_N
+Text GLabel 11850 7700 2    50   UnSpc ~ 0
+MIPI_RX3_D0_P
+Text GLabel 11850 7900 2    50   UnSpc ~ 0
+MIPI_RX3_C_N
+Text GLabel 11850 8000 2    50   UnSpc ~ 0
+MIPI_RX3_C_P
+Text GLabel 4950 7300 0    50   UnSpc ~ 0
+MIPI_RX2_D1_N
+Text GLabel 4950 7400 0    50   UnSpc ~ 0
+MIPI_RX2_D1_P
+Text GLabel 4950 7600 0    50   UnSpc ~ 0
+MIPI_RX2_D0_N
+Text GLabel 4950 7700 0    50   UnSpc ~ 0
+MIPI_RX2_D0_P
+Text GLabel 4950 7900 0    50   UnSpc ~ 0
+MIPI_RX2_C_N
+Text GLabel 4950 8000 0    50   UnSpc ~ 0
+MIPI_RX2_C_P
+Text GLabel 4950 6800 0    50   UnSpc ~ 0
+I2C2_SDA
+Text GLabel 4950 6900 0    50   UnSpc ~ 0
+I2C2_SCL
+Text GLabel 4950 6000 0    50   UnSpc ~ 0
+CAM_B_D_PWM
+Text GLabel 4950 6100 0    50   UnSpc ~ 0
+CAM_B_PWDN_N
+Text GLabel 4950 6200 0    50   UnSpc ~ 0
+CAM_B_CLK_OUT
+Text GLabel 6400 5200 0    50   Input ~ 0
+VBUS
+Text GLabel 6750 5000 0    50   Input ~ 0
+VDD_5V
+Text GLabel 4650 3800 0    50   UnSpc ~ 0
+I2C1_SDA
+Text GLabel 4650 3900 0    50   UnSpc ~ 0
+I2C1_SCL
+Text GLabel 1850 5200 1    50   Input ~ 0
+VDD_5V
+Text GLabel 2100 7650 1    50   Input ~ 0
+VDD_5V
+Text GLabel 1700 2700 1    50   Input ~ 0
+VDD_5V
+Text GLabel 1200 2550 1    50   Input ~ 0
+VDD_5V
+Text GLabel 3950 2100 0    50   UnSpc ~ 0
+MIPI_RX4_C_N
+Text GLabel 3950 2200 0    50   UnSpc ~ 0
+MIPI_RX4_C_P
+Text GLabel 3950 2400 0    50   UnSpc ~ 0
+MIPI_RX4_D0_N
+Text GLabel 3950 2500 0    50   UnSpc ~ 0
+MIPI_RX4_D0_P
+Text GLabel 3950 2700 0    50   UnSpc ~ 0
+MIPI_RX4_D1_N
+Text GLabel 3950 2800 0    50   UnSpc ~ 0
+MIPI_RX4_D1_P
+Text GLabel 3950 3000 0    50   UnSpc ~ 0
+MIPI_RX5_D0_N
+Text GLabel 3950 3100 0    50   UnSpc ~ 0
+MIPI_RX5_D0_P
+Text GLabel 3950 3300 0    50   UnSpc ~ 0
+MIPI_RX5_D1_N
+Text GLabel 3950 3400 0    50   UnSpc ~ 0
+MIPI_RX5_D1_P
+Text GLabel 11400 3000 2    50   UnSpc ~ 0
+USB_D_N
+Text GLabel 11400 2900 2    50   UnSpc ~ 0
+USB_D_P
+Text GLabel 11400 2700 2    50   UnSpc ~ 0
+USB_RX_N
+Text GLabel 11400 2600 2    50   UnSpc ~ 0
+USB_RX_P
+Text GLabel 11400 3300 2    50   UnSpc ~ 0
+USB_D_N
+Text GLabel 11400 3200 2    50   UnSpc ~ 0
+USB_TX_P
+Text GLabel 11000 6900 2    50   UnSpc ~ 0
+I2C3_SDA
+Text GLabel 11000 6800 2    50   UnSpc ~ 0
+I2C3_SCL
+Text GLabel 13550 4000 2    50   UnSpc ~ 0
+CAM_A_PWDN_N
+Text GLabel 13550 3900 2    50   UnSpc ~ 0
+CAM_A_CLK_OUT
+Text GLabel 5350 9650 2    50   UnSpc ~ 0
+I2C3_SDA
+Text GLabel 5350 9550 2    50   UnSpc ~ 0
+I2C3_SCL
+Text GLabel 10850 2200 2    50   UnSpc ~ 0
+UART_TX
+Text GLabel 10850 2100 2    50   UnSpc ~ 0
+UART_RX
+Text GLabel 5350 9850 2    50   UnSpc ~ 0
+UART_TX
+Text GLabel 5350 9750 2    50   UnSpc ~ 0
+UART_RX
+Text HLabel 1150 8650 0    50   Input ~ 0
+MODULE_nRST
+Text HLabel 3650 9550 0    50   Input ~ 0
+MODULE_nRST
+Text HLabel 5400 4500 0    50   Input ~ 0
+MODULE_nRST
+Text HLabel 3650 9750 0    50   Input ~ 0
+2485_PGOOD
+Text HLabel 3650 9850 0    50   Input ~ 0
+2485_WAKEUP
+Text HLabel 5050 4200 0    50   Input ~ 0
+2485_PGOOD
+Text HLabel 5000 4400 0    50   Input ~ 0
+2485_WAKEUP
+Text HLabel 1550 6200 0    50   Input ~ 0
+2485_PGOOD
+Text HLabel 11300 9550 2    50   Input ~ 0
+SD_HST0_D0
+Text HLabel 11300 9650 2    50   Input ~ 0
+SD_HST0_D1
+Text HLabel 11300 9750 2    50   Input ~ 0
+SD_HST0_D2
+Text HLabel 11300 9850 2    50   Input ~ 0
+SD_HST0_D3
+Text HLabel 11000 4300 2    50   Input ~ 0
+SD_HST0_D0
+Text HLabel 11000 4200 2    50   Input ~ 0
+SD_HST0_D1
+Text HLabel 11000 4100 2    50   Input ~ 0
+SD_HST0_D2
+Text HLabel 11000 3900 2    50   Input ~ 0
+SD_HST0_D3
+Wire Wire Line
+	11750 3700 11750 3900
+Wire Wire Line
+	11750 3900 13550 3900
+Wire Wire Line
+	9750 3700 11750 3700
+Text HLabel 3650 9650 0    50   Input ~ 0
+AUX_IO_IRQ
+Text HLabel 9950 9850 0    50   Input ~ 0
+SD_HST0_CD
+Text HLabel 9950 9750 0    50   Input ~ 0
+SD_HST0_CMD
+Text HLabel 9950 9550 0    50   Input ~ 0
+SD_HST0_CLK
+Wire Wire Line
+	10200 9550 9950 9550
+Wire Wire Line
+	10200 9750 9950 9750
+Wire Wire Line
+	10200 9850 9950 9850
+Text HLabel 8250 9550 2    50   Input ~ 0
+SPI_SIO0
+Text HLabel 8250 9650 2    50   Input ~ 0
+SPI_SIO1
+Text HLabel 8250 9750 2    50   Input ~ 0
+SPI_SIO2
+Text HLabel 8250 9850 2    50   Input ~ 0
+SPI_SIO3
+Text HLabel 6900 9550 0    50   Input ~ 0
+SPI_SCK
+Text HLabel 6900 9750 0    50   Input ~ 0
+SPI_SS_0
+Text HLabel 6900 9850 0    50   Input ~ 0
+SPI_SS_1
+Wire Wire Line
+	7150 9550 6900 9550
+Wire Wire Line
+	7150 9750 6900 9750
+Wire Wire Line
+	6900 9850 7150 9850
+Text HLabel 11000 5800 2    50   Input ~ 0
+SPI_SIO0
+Text HLabel 11000 5900 2    50   Input ~ 0
+SPI_SIO1
+Text HLabel 11000 6000 2    50   Input ~ 0
+SPI_SIO2
+Text HLabel 11000 6100 2    50   Input ~ 0
+SPI_SIO3
+Text HLabel 11000 6400 2    50   Input ~ 0
+SPI_SCK
+Text HLabel 11000 6200 2    50   Input ~ 0
+SPI_SS_0
+Text HLabel 11000 5700 2    50   Input ~ 0
+SPI_SS_1
+Text GLabel 10350 4900 2    50   Input ~ 0
+VDD_5V
+Text HLabel 6300 6200 0    50   Input ~ 0
+AUX_IO_IRQ
+Text HLabel 6300 5700 0    50   Input ~ 0
+SD_HST0_CD
+Text HLabel 6300 5900 0    50   Input ~ 0
+SD_HST0_CMD
+Text HLabel 6300 5800 0    50   Input ~ 0
+SD_HST0_CLK
 $EndSCHEMATC
